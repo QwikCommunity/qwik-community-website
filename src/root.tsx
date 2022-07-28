@@ -1,4 +1,4 @@
-import { App } from './components/app/app';
+import { App } from './app/App';
 
 import './global.css';
 
@@ -7,7 +7,7 @@ export default () => {
     <html>
       <head>
         <meta charSet="utf-8" />
-        <title>Qwik Blank App</title>
+        <title>Qwik Community</title>
       </head>
       <body>
         <App />
