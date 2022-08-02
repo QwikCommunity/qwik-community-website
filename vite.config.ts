@@ -5,6 +5,10 @@ import { qwikVite } from '@builder.io/qwik/optimizer';
 export default defineConfig(() => {
   return {
     /* VITE_CONFIG */
+    ssr: {
+      target: "webworker",
+      noExternal: true
+    },
     plugins: [
       qwikVite(/* VITE_QWIK */),
       /* VITE_PLUGINS */

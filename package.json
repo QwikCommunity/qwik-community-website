@@ -16,6 +16,7 @@
     "start": "npm run dev.ssr",
     "typecheck": "tsc --incremental --noEmit"
   },
+  "type": "module",
   "devDependencies": {
     "@builder.io/qwik": "0.0.39",
     "@types/eslint": "8.4.5",
