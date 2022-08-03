@@ -18,13 +18,18 @@ export const App = component$(() => {
   const mainCommunityItems: CommunityItem[] = [
     {
       url: 'https://www.facebook.com/groups/qwikdevs',
-      title: 'Qwik Facebook Group',
+      title: 'Qwik Developers Facebook Group',
       logoComponent: LocalFacebookLogo
     },
     {
       url: 'https://www.linkedin.com/groups/12677766',
-      title: 'Qwik LinkedIn Group',
+      title: 'Qwik Developers LinkedIn Group',
       logoComponent: <LinkedInLogo class="h-6 w-6" /> 
+    },
+    {
+      url: 'https://discord.com/invite/bNVSQmPzqy',
+      title: `Builder.io's Qwik Discord`,
+      logoComponent: <DiscordLogo class="h-6 w-6" /> 
     },
     {
       url: 'https://discord.gg/mD5532b38a',
