@@ -48,14 +48,24 @@ export const App = component$(() => {
       </div>
       <h1 class="text-4xl font-bold my-auto pb-3 pl-4 md:text-6xl">Qwik Community</h1>
     </div>
+    
     <div className="p-12">
-
+    
+      <div className="mb-5">
+        <div class="mb-2">Qwik is a revolutionary web framework that allows you to load large web apps INSTANTLY.</div>
+        <div>
+          <a class="text-blue-600 hover:underline" href="https://qwik.builder.io/" target="_blank" rel="noopener">
+          
+            Read the official docs here
+            </a>
+        </div>
+      </div>   
       
       <Newsletter class="mb-16"/>
       
 
       <section class="mb-12 flex flex-col space-y-5">
-
+      
         <h2 className="text-3xl underline">Join Our Main Communities:</h2>
         
         <ul class="pt-5 flex flex-col space-y-6 text-lg">
