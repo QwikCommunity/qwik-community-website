@@ -11,7 +11,7 @@ export default () => {
         <meta property="og:url" content="https://www.qwikcommunity.com" />
         <meta property="og:title" content="Qwik Community" />
         <meta property="og:description" content="Check out all the Qwik communities around the world" />
-        <meta property="og:image" content="qwik-community.jpg" />
+        <meta property="og:image" content="https://www.qwikcommunity.com/qwik-community.jpg" />
         <meta property="og:image:alt" content="Qwik Community" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Qwik Community" />
@@ -20,7 +20,7 @@ export default () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Qwik Community" />
         <meta name="twitter:description" content="Check out all the Qwik communities around the world" />
-        <meta name="twitter:image" content="qwik-community.jpg" />
+        <meta name="twitter:image" content="https://www.qwikcommunity.com/qwik-community.jpg" />
         <meta name="twitter:image:alt" content="Qwik Community" />
       </head>
       <body>
