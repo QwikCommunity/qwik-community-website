@@ -28,12 +28,7 @@ export const App = component$(() => {
     },
     {
       url: 'https://discord.com/invite/bNVSQmPzqy',
-      title: `Builder.io's Qwik Discord`,
-      logoComponent: <DiscordLogo class="h-6 w-6" /> 
-    },
-    {
-      url: 'https://discord.gg/mD5532b38a',
-      title: 'Qwik Community Discord',
+      title: `Builder.io's Official Qwik Discord`,
       logoComponent: <DiscordLogo class="h-6 w-6" /> 
     }
   ];
