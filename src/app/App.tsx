@@ -62,7 +62,7 @@ export const App = component$(() => {
           </li>
           <li class="flex flex-row space-x-3">
             <DiscordLogo class="h-6 w-6" />
-            <a class="text-blue-600 hover:underline" href="https://discord.com/invite/bNVSQmPzqy" target="_blank" rel="noopener">
+            <a class="text-blue-600 hover:underline" href="https://qwik.builder.io/chat" target="_blank" rel="noopener">
             Join the official Qwik Discord
             </a>
           </li>
